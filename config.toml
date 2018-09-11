@@ -1,0 +1,23 @@
+baseURL = "http://www.mycodingblog.com"
+languageCode = "en-us"
+title = "My Coding Blog"
+theme = "hello-friend"
+copyright = ""
+paginate = 5
+
+[params]
+  subtitle = "Random Web Development Thoughts & Tutorials"
+  gaid = "UA-67235996-1"
+
+[params.logo]
+  logoText = "My Coding Blog"
+#   or
+#
+#   path = "/img/your-example-logo.svg"
+#   alt = "Your example logo alt text"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
